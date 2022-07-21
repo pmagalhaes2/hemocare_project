@@ -1,10 +1,7 @@
 import { Link } from "react-router-dom";
 import "./nav.css";
-import { useState, useEffect } from "react";
 
-function Nav() {
-  const [active, setActive] = useState(false);
-
+const Nav = () => {
   function handleClick(clickedItem) {
     const items = document.querySelectorAll(".nav-link");
 
@@ -18,15 +15,17 @@ function Nav() {
 
     clickedItem.target.classList.contains("active")
       ? clickedItem.target.classList.remove("active")
-      : setActive(clickedItem.target.classList.add("active"));
+      : clickedItem.target.classList.add("active");
   }
 
   return (
     <nav>
-      <img src="/src/assets/logo-hc.png" alt="" />
+      <a href="/">
+        <img src="/src/assets/logo-hc.png" alt="" />
+      </a>
       <ul className="nav-container">
         <li className="nav-item">
-          <Link onClick={handleClick} className="nav-link" to="/">
+          <Link onClick={handleClick} className="nav-link active" to="/">
             Home
           </Link>
         </li>
@@ -48,6 +47,6 @@ function Nav() {
       </ul>
     </nav>
   );
-}
+};
 
 export default Nav;
