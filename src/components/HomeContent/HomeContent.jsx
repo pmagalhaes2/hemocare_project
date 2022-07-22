@@ -20,10 +20,10 @@ const HomeContent = () => {
             Saiba mais
           </Button>
         </div>
-        <img src="/src/assets/vector_one.png" alt="" />
+        <img src="https://github.com/pmagalhaes2/homecare_project/blob/main/src/assets/vector_one.png?raw=true" alt="" />
       </main>
       <section className="banner">
-        <img src="/src/assets/vector_two.png" alt="" />
+        <img src="https://github.com/pmagalhaes2/homecare_project/blob/main/src/assets/vector_two.png?raw=true" alt="" />
         <div className="text-container">
           <h2 className="subtitle-white">
             14/6 – Dia Mundial do Doador de Sangue
@@ -60,7 +60,7 @@ const HomeContent = () => {
               população total.
             </p>
           </ul>
-          <img src="/src/assets/vector_three.png" alt="" />
+          <img src="https://github.com/pmagalhaes2/homecare_project/blob/main/src/assets/vector_three.png?raw=true" alt="" />
         </div>
       </section>
     </>
