@@ -12,16 +12,16 @@ a {
 }
 
 .red-border-button {
-  border: 1px solid var(--light-red);
+  border: 1px solid var(--red);
 }
 
 .red-border-button a {
-  color: var(--light-red);
+  color: var(--red);
 }
 
 .white-border-button {
   border: 1px solid var(--soft-white);
-  background-color: var(--light-red);
+  background-color: var(--red);
 }
 
 .white-border-button a {
