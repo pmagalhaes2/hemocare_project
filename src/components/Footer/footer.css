@@ -1,8 +1,9 @@
 footer {
-  height: 150px;
+  height: 200px;
   background-color: var(--red);
   display: flex;
   align-items: center;
+  justify-content: space-between;
   padding: 0 150px;
 }
 
@@ -15,4 +16,29 @@ ul li {
   display: flex;
   align-items: center;
   gap: 10px;
+}
+
+.icons {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.icons svg {
+  width: 20px;
+  height: 20px;
+  color: var(--soft-white);
+}
+
+.icons img {
+  width: 70%;
+  margin-left: 10px;
+}
+
+.copyright {
+  text-transform: uppercase;
+  text-align: center;
+  background-color: var(--red);
+  color: var(--soft-white);
+  font-size: 0.8rem;
 }
