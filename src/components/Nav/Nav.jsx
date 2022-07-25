@@ -1,8 +1,9 @@
 import { Link } from "react-router-dom";
 import "./nav.css";
+import menuItems from "./menuItems";
 
 const Nav = () => {
-  function handleClick(clickedItem) {
+  const handleClick = (clickedItem) => {
     const items = document.querySelectorAll(".nav-link");
 
     items.forEach((item) => {
@@ -16,7 +17,7 @@ const Nav = () => {
     clickedItem.target.classList.contains("active")
       ? clickedItem.target.classList.remove("active")
       : clickedItem.target.classList.add("active");
-  }
+  };
 
   return (
     <nav>
@@ -24,26 +25,15 @@ const Nav = () => {
         <img src="/src/assets/logo-hc.png" alt="" />
       </a>
       <ul className="nav-container">
-        <li className="nav-item">
-          <Link onClick={handleClick} className="nav-link active" to="/">
-            Home
-          </Link>
-        </li>
-        <li className="nav-item">
-          <Link onClick={handleClick} className="nav-link" to="/orientacoes">
-            Orientações
-          </Link>
-        </li>
-        <li className="nav-item">
-          <Link onClick={handleClick} className="nav-link" to="/sobre">
-            Sobre
-          </Link>
-        </li>
-        <li className="nav-item">
-          <Link onClick={handleClick} className="nav-link" to="/contato">
-            Contato
-          </Link>
-        </li>
+        {menuItems.map((item) => {
+          return (
+            <li className="nav-item" key={item.id}>
+              <Link onClick={handleClick} className={item.class} to={item.path}>
+                {item.name}
+              </Link>
+            </li>
+          );
+        })}
       </ul>
     </nav>
   );
