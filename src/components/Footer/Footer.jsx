@@ -31,7 +31,10 @@ const Footer = () => {
         <div className="icons">
           <AiFillFacebook />
           <AiFillInstagram />
-          <img src="/src/assets/logo-hc 2.png" alt="" />
+          <img
+            src="https://github.com/pmagalhaes2/homecare_project/blob/main/src/assets/logo-hc%202.png?raw=true"
+            alt=""
+          />
         </div>
       </footer>
       <div className="copyright">

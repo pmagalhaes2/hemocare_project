@@ -22,7 +22,10 @@ const Nav = () => {
   return (
     <nav>
       <a href="/">
-        <img src="/src/assets/logo-hc.png" alt="" />
+        <img
+          src="https://github.com/pmagalhaes2/homecare_project/blob/main/src/assets/logo-hc.png?raw=true"
+          alt=""
+        />
       </a>
       <ul className="nav-container">
         {menuItems.map((item) => {
