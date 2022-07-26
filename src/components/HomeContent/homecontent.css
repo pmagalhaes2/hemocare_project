@@ -66,7 +66,9 @@ main img {
 
 .donation-container {
   display: flex;
-  margin: 75px auto;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 75px;
 }
 
 .donation-informations {
@@ -82,7 +84,7 @@ main img {
 }
 
 .donation-container img {
-  width: 60%;
+  width: 55%;
 }
 
 .percentage {
