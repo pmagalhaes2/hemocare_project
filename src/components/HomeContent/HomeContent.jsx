@@ -1,5 +1,7 @@
 import Button from "../Button/Button";
 import Footer from "../Footer/Footer";
+import Paragraph from "../Paragraph/Paragraph";
+import Title from "../Title/Title";
 import "./homecontent.css";
 
 const HomeContent = () => {
@@ -7,13 +9,16 @@ const HomeContent = () => {
     <>
       <main>
         <div className="text-container">
-          <h2 className="title-black">
-            Menos de 2% da população brasileira é doadora de sangue
-          </h2>
-          <p className="text-grey">
-            O Brasil ainda tem um número baixo de pessoas que realizam doações
-            de sangue voluntárias e de forma constante.
-          </p>
+          <Title
+            titleClass="title-black"
+            titleText="Menos de 2% da população brasileira é doadora de sangue"
+          />
+          <Paragraph
+            paragraphClass="text-grey"
+            paragraphText="O Brasil ainda tem um número baixo de pessoas que realizam doações
+            de sangue voluntárias e de forma constante."
+          />
+
           <Button
             class="red-border-button"
             link="https://bvsms.saude.gov.br/14-6-dia-mundial-do-doador-de-sangue-2/"
@@ -26,25 +31,29 @@ const HomeContent = () => {
           alt=""
         />
       </main>
+
       <section className="banner">
         <img
           src="https://github.com/pmagalhaes2/homecare_project/blob/main/src/assets/vector_two.png?raw=true"
           alt=""
         />
         <div className="text-container">
-          <h2 className="subtitle-white">
-            14/6 – Dia Mundial do Doador de Sangue
-          </h2>
-          <p className="text-white">
-            A data de 14 de junho foi instituída em homenagem ao nascimento de
-            Karl Landsteiner, imunologista austríaco que descobriu o fator Rh e
-            as várias diferenças entre os tipos sanguíneos.
-          </p>
+          <Title
+            titleClass="subtitle-white"
+            titleText="14/6 – Dia Mundial do Doador de Sangue"
+          />
+          <Paragraph
+            paragraphClass="text-white"
+            paragraphText="A data de 14 de junho foi
+          instituída em homenagem ao nascimento de Karl Landsteiner,
+          imunologista austríaco que descobriu o fator Rh e as várias diferenças entre os tipos sanguíneos."
+          />
           <Button class="white-border-button" link="#">
             Saiba mais
           </Button>
         </div>
       </section>
+
       <section className="donation">
         <h2 className="title-black">Por que a situação é tão crítica?</h2>
         <div className="donation-container">
@@ -88,6 +97,29 @@ const HomeContent = () => {
           />
         </div>
       </section>
+
+      <section className="blood-inventory">
+        <h3 className="title-black">Estoque de bolsa de sangue no Brasil</h3>
+        <div className="inventory-container">
+          <img src="/src/assets/vector_four.png" alt="" />
+          <div className="text-container">
+            <Paragraph
+              paragraphClass="text-grey"
+              paragraphText="Em 2019, foram realizadas 3.271.824 coletas de sangue no país. Em 2020, o número caiu para 2.958.665. Já em 2021, o número subiu para 3.035.533 bolsas de sangue coletadas."
+            />
+            <Paragraph
+              paragraphClass="text-grey"
+              paragraphText="Até marco de 2022, de acordo com a secretaria, foram coletadas aproximadamente 732 mil bolsas de sangue. Ela lembra que a Organização Mundial da Saúde (OMS) recomenda que a taxa de doadores de sangue na população seja de 1% a 3%. 
+              A taxa de doação no Brasil foi de 1,4%, em 2021."
+            />
+
+            <Button class="red-border-button" link="">
+              Quero doar
+            </Button>
+          </div>
+        </div>
+      </section>
+
       <Footer />
     </>
   );
