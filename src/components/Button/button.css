@@ -24,6 +24,13 @@ a {
   background-color: var(--red);
 }
 
-.white-border-button a {
+.white-border-button a, .red-button a {
   color: var(--soft-white);
+}
+
+.red-button {
+  background-color: var(--red);
+  border: 1px solid var(--red);
+  padding: 2px 15px;
+  gap: 15px;
 }
