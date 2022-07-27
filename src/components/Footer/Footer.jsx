@@ -12,7 +12,7 @@ const Footer = () => {
           <ul>
             {contacts.map((contact) => {
               return (
-                <li>
+                <li key={contact.id}>
                   <contact.component />
                   <p>{contact.information}</p>
                 </li>
