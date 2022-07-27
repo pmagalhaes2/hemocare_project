@@ -3,25 +3,7 @@ main {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 100px 150px;
-}
-
-.text-container {
-  display: flex;
-  flex-direction: column;
-  gap: 20px;
-  width: 50%;
-}
-
-.title-black {
-  color: var(--black);
-  font-size: 2rem;
-}
-
-.text-grey {
-  color: var(--medium-grey);
-  font-weight: 300;
-  font-size: 18px;
+  padding: var(--padding-section);
 }
 
 main img {
@@ -36,35 +18,28 @@ main img {
   background-color: var(--red);
   display: flex;
   align-items: center;
-  justify-content: space-around; 
+  justify-content: space-around;
   padding: 0 150px;
 }
 
-/* .banner img {
-  margin-right: 100px;
-} */
-
-.text-container .subtitle-white {
-  color: var(--white);
-  font-weight: 600;
-  line-height: 64px;
-}
-
-.text-container .text-white {
-  color: var(--soft-white);
-  font-weight: 300;
-  font-size: 18px;
-}
-
 .donation {
-  padding: 100px 150px;
+  padding: var(--padding-section);
 }
 
-.donation .title-black {
+.text-container {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  width: 50%;
+}
+
+.donation .title-black,
+.blood-inventory .title-black {
   text-align: center;
 }
 
-.donation-container {
+.donation-container,
+.inventory-container {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -126,4 +101,16 @@ main img {
   font-size: 20px;
   line-height: 32px;
   color: var(--black);
+}
+
+.blood-inventory {
+  padding: 0 150px;
+}
+
+.inventory-container {
+  margin-bottom: 100px;
+}
+
+.inventory-container img {
+  width: 40%;
 }
