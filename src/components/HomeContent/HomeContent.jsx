@@ -101,7 +101,10 @@ const HomeContent = () => {
       <section className="blood-inventory">
         <h3 className="title-black">Estoque de bolsa de sangue no Brasil</h3>
         <div className="inventory-container">
-          <img src="/src/assets/vector_four.png" alt="" />
+          <img
+            src="https://github.com/pmagalhaes2/homecare_project/blob/main/src/assets/vector_four.png?raw=true"
+            alt=""
+          />
           <div className="text-container">
             <Paragraph
               paragraphClass="text-grey"
