@@ -24,6 +24,11 @@ ul li {
   justify-content: center;
 }
 
+.icons a {
+  display: flex;
+  align-items: center;
+}
+
 .icons svg {
   width: 20px;
   height: 20px;

@@ -1,8 +1,4 @@
-import {
-  AiOutlinePhone,
-  AiOutlineWhatsApp,
-  AiOutlineMail,
-} from "react-icons/ai";
+import contacts from "./contactList";
 
 import { AiFillFacebook, AiFillInstagram } from "react-icons/ai";
 
@@ -14,26 +10,26 @@ const Footer = () => {
       <footer>
         <div className="contact-infos">
           <ul>
-            <li>
-              <AiOutlinePhone />
-              <p>(11) 9000-0000</p>
-            </li>
-            <li>
-              <AiOutlineWhatsApp />
-              <p>(11) 9000-0000</p>
-            </li>
-            <li>
-              <AiOutlineMail />
-              <p>aloatendimento@homecare.com.br</p>
-            </li>
+            {contacts.map((contact) => {
+              return (
+                <li>
+                  <contact.component />
+                  <p>{contact.information}</p>
+                </li>
+              );
+            })}
           </ul>
         </div>
         <div className="icons">
-          <AiFillFacebook />
-          <AiFillInstagram />
+          <a href="https://www.facebook.com/" target="_blank">
+            <AiFillFacebook />
+          </a>
+          <a href="https://www.instagram.com/" target="_blank">
+            <AiFillInstagram />
+          </a>
           <img
             src="https://github.com/pmagalhaes2/homecare_project/blob/main/src/assets/logo-hc%202.png?raw=true"
-            alt=""
+            alt="Logo Home Care nas cores cinza e branco."
           />
         </div>
       </footer>
