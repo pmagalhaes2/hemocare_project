@@ -1,0 +1,11 @@
+.text-grey {
+  color: var(--medium-grey);
+  font-weight: 300;
+  font-size: 18px;
+}
+
+.text-white {
+  color: var(--soft-white);
+  font-weight: 300;
+  font-size: 18px;
+}
