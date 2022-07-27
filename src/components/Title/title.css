@@ -1,0 +1,10 @@
+.title-black {
+  color: var(--black);
+  font-size: 2rem;
+}
+
+.subtitle-white {
+  color: var(--white);
+  font-weight: 600;
+  line-height: 64px;
+}
