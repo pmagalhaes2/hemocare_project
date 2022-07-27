@@ -1,5 +1,9 @@
+import Form from "../../components/Form/Form";
+
 const Contato = () => {
-  return <h1>Contato</h1>;
+  return (
+      <Form />
+  );
 };
 
 export default Contato;
