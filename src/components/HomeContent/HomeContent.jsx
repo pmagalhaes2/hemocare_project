@@ -122,8 +122,6 @@ const HomeContent = () => {
           </div>
         </div>
       </section>
-
-      <Footer />
     </>
   );
 };
