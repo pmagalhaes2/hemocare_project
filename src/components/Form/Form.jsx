@@ -22,7 +22,7 @@ const Form = () => {
             paragraphText="Desde já agradecemos a sua mensagem!"
           />
         </div>
-        <form onSubmit={(e) => e.preventDefault()}>
+        <form>
           <div className="form-container">
             <div className="field">
               <input type="text" placeholder="Seu nome completo" required />
