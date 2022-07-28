@@ -1,5 +1,7 @@
+import Orientations from "../../components/Orientations/Orientations";
+
 const Orientacoes = () => {
-  return <h1>Orientações</h1>;
+  return <Orientations />;
 };
 
 export default Orientacoes;
