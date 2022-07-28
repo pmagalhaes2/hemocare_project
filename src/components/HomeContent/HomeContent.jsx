@@ -1,5 +1,4 @@
 import Button from "../Button/Button";
-import Footer from "../Footer/Footer";
 import Paragraph from "../Paragraph/Paragraph";
 import Title from "../Title/Title";
 import "./homecontent.css";
@@ -116,7 +115,10 @@ const HomeContent = () => {
               A taxa de doação no Brasil foi de 1,4%, em 2021."
             />
 
-            <Button class="red-border-button" link="https://forms.gle/toPCuWF4LGHbSCF66">
+            <Button
+              class="red-border-button"
+              link="https://forms.gle/toPCuWF4LGHbSCF66"
+            >
               Quero doar
             </Button>
           </div>
