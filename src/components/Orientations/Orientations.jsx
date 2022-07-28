@@ -7,7 +7,10 @@ const Orientations = () => {
   return (
     <>
       <main>
-        <img src="/src/assets/vector_five.png" className="orientation-vector" />
+        <img
+          src="https://github.com/pmagalhaes2/homecare_project/blob/main/src/assets/vector_five.png?raw=true"
+          className="orientation-vector"
+        />
         <div className="text-container">
           <Title titleClass="title-black" titleText="Quem pode doar sangue?" />
           <Paragraph
