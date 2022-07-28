@@ -116,7 +116,7 @@ const HomeContent = () => {
               A taxa de doação no Brasil foi de 1,4%, em 2021."
             />
 
-            <Button class="red-border-button" link="">
+            <Button class="red-border-button" link="https://forms.gle/toPCuWF4LGHbSCF66">
               Quero doar
             </Button>
           </div>
