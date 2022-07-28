@@ -1,0 +1,46 @@
+.cards {
+  background-color: var(--bg-color);
+  padding: var(--padding-section);
+}
+
+.card-container {
+  background-color: var(--bg-color);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: 5px solid var(--soft-red);
+  border-radius: 10px;
+  padding: 30px;
+  width: 500px;
+  height: 700px;
+}
+
+.requirement-list,
+.impediment-list {
+  margin-top: 2rem;
+}
+
+.requirement-item,
+.impediment-item {
+  gap: 20px;
+  margin-bottom: 10px;
+}
+
+.requirement-item svg {
+  color: #4bae67;
+  min-width: 15px;
+  min-height: 15px;
+}
+
+.impediment-item svg {
+  color: var(--red);
+  min-width: 15px;
+  min-height: 15px;
+}
