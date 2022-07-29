@@ -1,4 +1,5 @@
 import Cards from "../Cards/Cards";
+import Map from "../Map/Map";
 import Paragraph from "../Paragraph/Paragraph";
 import Title from "../Title/Title";
 import "./orientations.css";
@@ -28,6 +29,18 @@ const Orientations = () => {
         </div>
       </main>
       <Cards />
+      <section className="banner">
+        <a
+          href="https://www.gov.br/saude/pt-br/composicao/saes/sangue"
+          target="_blank"
+        >
+          <Title
+            titleClass="title-white"
+            titleText="Clique aqui e saiba todos os requisitos e impedimentos para doar sangue"
+          />
+        </a>
+      </section>
+      <Map />
     </>
   );
 };
