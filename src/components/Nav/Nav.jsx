@@ -23,8 +23,8 @@ const Nav = () => {
     <nav>
       <a href="/">
         <img
-          src="https://github.com/pmagalhaes2/homecare_project/blob/main/src/assets/logo-hc.png?raw=true"
-          alt=""
+          src="https://i.ibb.co/z8nkWyK/logo-hc.png"
+          alt="Logo HemoCare cinza com vermelho"
         />
       </a>
       <ul className="nav-container">

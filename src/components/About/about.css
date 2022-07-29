@@ -40,19 +40,19 @@
 .member-one {
   width: 320px;
   height: 440px;
-  background: url("/src/assets/Patricia.png") no-repeat;
+  background: url("https://i.ibb.co/RTDbC8b/Patricia.png") no-repeat;
 }
 
 .member-two {
   width: 320px;
   height: 440px;
-  background: url("/src/assets/Felipe.png") no-repeat;
+  background: url("https://i.ibb.co/YhYtCQ5/Felipe.png") no-repeat;
 }
 
 .member-one:hover {
-  background: url("/src/assets/Patricia-hover.png") no-repeat;
+  background: url("https://i.ibb.co/x1XXSBK/Patricia-hover.png") no-repeat;
 }
 
 .member-two:hover {
-  background: url("/src/assets/Felipe-hover.png") no-repeat;
+  background: url("https://i.ibb.co/1J9bQ0T/Felipe-hover.png") no-repeat;
 }

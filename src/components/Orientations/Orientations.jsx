@@ -9,7 +9,8 @@ const Orientations = () => {
     <>
       <main>
         <img
-          src="https://github.com/pmagalhaes2/homecare_project/blob/main/src/assets/vector_five.png?raw=true"
+          src="https://i.ibb.co/s25ZmvJ/vector-five.png"
+          alt="Vetor jogando de braço dado com senhora auxiliando na locomoção da mesma"
           className="orientation-vector"
         />
         <div className="text-container">

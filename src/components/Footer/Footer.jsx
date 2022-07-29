@@ -28,7 +28,7 @@ const Footer = () => {
             <AiFillInstagram />
           </a>
           <img
-            src="https://github.com/pmagalhaes2/homecare_project/blob/main/src/assets/logo-hc%202.png?raw=true"
+            src="https://i.ibb.co/kKPpSns/logo-hc-2.png"
             alt="Logo Home Care nas cores cinza e branco."
           />
         </div>

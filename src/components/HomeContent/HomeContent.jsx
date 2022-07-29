@@ -26,15 +26,15 @@ const HomeContent = () => {
           </Button>
         </div>
         <img
-          src="https://github.com/pmagalhaes2/homecare_project/blob/main/src/assets/vector_one.png?raw=true"
-          alt=""
+          src="https://i.ibb.co/ckjkkxh/vector-one.png"
+          alt="Vetor jovens sentados na cadeira do hospital doando sangue"
         />
       </main>
 
       <section className="banner">
         <img
-          src="https://github.com/pmagalhaes2/homecare_project/blob/main/src/assets/vector_two.png?raw=true"
-          alt=""
+          src="https://i.ibb.co/0DYRFhv/vector-two.png"
+          alt="Vetor pessoas dando aperto de mão representando o impacto da doação de sangue"
         />
         <div className="text-container">
           <Title
@@ -91,8 +91,8 @@ const HomeContent = () => {
           </ul>
           <img
             className="donation-vector"
-            src="https://github.com/pmagalhaes2/homecare_project/blob/main/src/assets/vector_three.png?raw=true"
-            alt=""
+            src="https://i.ibb.co/g9QRV00/vector-three.png"
+            alt="Vetor duas pessoas analisando estatísticas de doação de sangue"
           />
         </div>
       </section>
@@ -101,8 +101,8 @@ const HomeContent = () => {
         <h3 className="title-black">Estoque de bolsa de sangue no Brasil</h3>
         <div className="inventory-container">
           <img
-            src="https://github.com/pmagalhaes2/homecare_project/blob/main/src/assets/vector_four.png?raw=true"
-            alt=""
+            src="https://i.ibb.co/CmzzM7q/vector-four.png"
+            alt="Vetor jovens sentadas na cadeira do hospital doando sangue"
           />
           <div className="text-container">
             <Paragraph

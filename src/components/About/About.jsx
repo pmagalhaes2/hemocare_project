@@ -8,8 +8,8 @@ const About = () => {
     <>
       <div className="about-container">
         <img
-          src="https://github.com/pmagalhaes2/homecare_project/blob/main/src/assets/logo-hc%203.png?raw=true"
-          alt=""
+          src="https://i.ibb.co/VLhy1x8/logo-hc-3.png"
+          alt="Logo HemoCare com efeito espelhado"
         />
         <ShadedBox>
           <Title titleClass="title-black" titleText="Sobre a HemoCare" />
