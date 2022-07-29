@@ -2,11 +2,12 @@ import Button from "../Button/Button";
 import Title from "../Title/Title";
 import Paragraph from "../Paragraph/Paragraph";
 import "./form.css";
+import ShadedBox from "../ShadedBox/ShadedBox";
 
 const Form = () => {
   return (
     <div className="container">
-      <div className="content">
+      <ShadedBox>
         <div className="text-information">
           <Title
             titleClass="title-black"
@@ -29,7 +30,11 @@ const Form = () => {
             </div>
             <fieldset className="group">
               <div className="field-inline">
-                <input type="tel" pattern="[0-9]({2}) [0-9]{5}-[0-9]{4}" placeholder="Seu telefone" />
+                <input
+                  type="tel"
+                  pattern="[0-9]({2}) [0-9]{5}-[0-9]{4}"
+                  placeholder="Seu telefone"
+                />
                 <input type="email" placeholder="Seu e-mail" required />
                 <input type="text" placeholder="Assunto" required />
               </div>
@@ -38,7 +43,7 @@ const Form = () => {
           </div>
           <Button class="red-button">Enviar</Button>
         </form>
-      </div>
+      </ShadedBox>
     </div>
   );
 };
