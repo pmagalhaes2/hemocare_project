@@ -9,8 +9,8 @@ main {
   margin: 0;
 }
 
-.text-container {
-  display: flex;
-  flex-direction: column;
-  width: 50%;
+.title-white {
+  width: 70%;
+  text-align: center;
+  margin: 0 auto;
 }
