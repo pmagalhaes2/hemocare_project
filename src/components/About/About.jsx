@@ -7,7 +7,10 @@ const About = () => {
   return (
     <>
       <div className="about-container">
-        <img src="/src/assets/logo-hc 3.png" alt="" />
+        <img
+          src="https://github.com/pmagalhaes2/homecare_project/blob/main/src/assets/logo-hc%203.png?raw=true"
+          alt=""
+        />
         <ShadedBox>
           <Title titleClass="title-black" titleText="Sobre a HemoCare" />
           <Paragraph
