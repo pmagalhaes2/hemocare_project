@@ -1,6 +1,5 @@
 #  🩸 HemoCare
 
-![enter link description here](https://i.ibb.co/6XVFZ5s/hemo-care.gif)
 
 ---
 
