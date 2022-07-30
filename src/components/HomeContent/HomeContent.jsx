@@ -20,7 +20,7 @@ const HomeContent = () => {
 
           <Button
             class="red-border-button"
-            link="https://bvsms.saude.gov.br/14-6-dia-mundial-do-doador-de-sangue-2/"
+            link="https://bvsms.saude.gov.br/a-importancia-da-doacao-regular-de-sangue/"
           >
             Saiba mais
           </Button>
@@ -47,7 +47,10 @@ const HomeContent = () => {
           instituída em homenagem ao nascimento de Karl Landsteiner,
           imunologista austríaco que descobriu o fator Rh e as várias diferenças entre os tipos sanguíneos."
           />
-          <Button class="white-border-button" link="#">
+          <Button
+            class="white-border-button"
+            link="https://bvsms.saude.gov.br/14-6-dia-mundial-do-doador-de-sangue-2/#:~:text=A%20data%20de%2014%20de,de%20como%20todos%20podem%20contribuir."
+          >
             Saiba mais
           </Button>
         </div>

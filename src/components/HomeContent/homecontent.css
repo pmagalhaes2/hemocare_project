@@ -24,6 +24,7 @@ main img {
 
 .donation {
   padding: var(--padding-section);
+  background-color: var(--bg-color);
 }
 
 .text-container {
@@ -104,11 +105,8 @@ main img {
 }
 
 .blood-inventory {
-  padding: 0 150px;
-}
-
-.inventory-container {
-  margin-bottom: 100px;
+  padding: 0 150px 100px;
+  background-color: var(--bg-color);
 }
 
 .inventory-container img {
