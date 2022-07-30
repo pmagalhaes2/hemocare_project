@@ -15,7 +15,7 @@ O site foi desenvolvido em quatro páginas, sendo elas:
  - `Sobre` - Onde é feita uma breve apresentação da ideia do projeto, tal como é apresentada a equipe desenvolvedora do projeto.
 -  `Contato` - Possui um formulário onde é possível enviar dúvidas e/ou sugestões.
 
-[Acesso o site aqui!](https://hemo-care.netlify.app/)
+[Acesse o site aqui!](https://hemo-care.netlify.app/)
 
 
 ---
