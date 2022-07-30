@@ -1,6 +1,6 @@
 #  🩸 HemoCare
 
-![enter link description here](https://i.ibb.co/6XVFZ5s/hemo-care.gif)
+![enter link description here](https://github.com/pmagalhaes2/hemocare_project/blob/main/src/assets/hemo_care.gif?raw=true)
 
 ---
 
