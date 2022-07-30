@@ -26,20 +26,41 @@ const Form = () => {
         <form>
           <div className="form-container">
             <div className="field">
-              <input type="text" placeholder="Seu nome completo" required />
+              <input
+                className="form-input"
+                type="text"
+                placeholder="Seu nome completo"
+                required
+              />
             </div>
             <fieldset className="group">
               <div className="field-inline">
                 <input
+                  className="form-input"
                   type="tel"
                   pattern="[0-9]({2}) [0-9]{5}-[0-9]{4}"
                   placeholder="Seu telefone"
                 />
-                <input type="email" placeholder="Seu e-mail" required />
-                <input type="text" placeholder="Assunto" required />
+                <input
+                  className="form-input"
+                  type="email"
+                  placeholder="Seu e-mail"
+                  required
+                />
+                <input
+                  className="form-input"
+                  type="text"
+                  placeholder="Assunto"
+                  required
+                />
               </div>
             </fieldset>
-            <textarea rows="3" placeholder="Sua mensagem" required></textarea>
+            <textarea
+              className="form-input"
+              rows="3"
+              placeholder="Sua mensagem"
+              required
+            ></textarea>
           </div>
           <Button class="red-button">Enviar</Button>
         </form>

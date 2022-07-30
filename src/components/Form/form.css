@@ -36,6 +36,11 @@ form {
   margin-bottom: 1em;
 }
 
+.form-input:focus {
+  outline: 1px solid var(--red);
+  border: 0;
+}
+
 input {
   height: 3rem;
 }
