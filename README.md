@@ -24,7 +24,6 @@ O site foi desenvolvido em quatro páginas, sendo elas:
 As seguintes ferramentas foram usadas na construção do projeto:
 
 **Website** (**[React](https://reactjs.org/)** + **[JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript)**)
-- **[Figma](https://www.figma.com/)**
 - **[Git](https://git-scm.com/doc)**
 - **[HTML](https://developer.mozilla.org/pt-BR/docs/Web/HTML)**
 - **[CSS](https://developer.mozilla.org/pt-BR/docs/Web/CSS)**
