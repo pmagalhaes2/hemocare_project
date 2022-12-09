@@ -3,7 +3,7 @@ const menuItems = [
     id: 1,
     name: "Home",
     path: "/",
-    class: "nav-link",
+    class: "nav-link active",
   },
   {
     id: 2,
